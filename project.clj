@@ -1,0 +1,10 @@
+(defproject edn-validator "0.1.0"
+  :description
+  "An edn validator that isolates errors to the smallest possible form."
+  :url "http://example.com/FIXME"
+  :license {:name "Eclipse Public License"
+            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :dependencies [[instaparse "1.3.2"]]
+  :repl-options {:init-ns leiningen.edn-validator}
+  ;; :pedantic? :warn
+  :eval-in-leiningen true)
