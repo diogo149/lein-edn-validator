@@ -1,4 +1,4 @@
-(defproject edn-validator "0.1.0"
+(defproject edn-validator "0.2.0-SNAPSHOT"
   :description
   "An edn validator that isolates errors to the smallest possible form."
   :url "https://github.com/diogo149/lein-edn-validator"
