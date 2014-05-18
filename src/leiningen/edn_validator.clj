@@ -42,7 +42,7 @@
 
 (defn edn-error
   [s]
-  (try (edn/read-string s)
+  (try (read-string s)
        nil
        (catch Exception e (.getMessage e))))
 
