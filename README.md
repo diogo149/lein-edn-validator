@@ -4,7 +4,7 @@ An edn validator that isolates errors to the smallest possible form. Useful for 
 
 ## Usage
 
-Put `[edn-validator "0.1.0"]` into the `:plugins` vector of your project.clj.
+Put `[edn-validator "0.2.0-SNAPSHOT"]` into the `:plugins` vector of your project.clj.
 
 ## Example ##
 
